@@ -1,0 +1,338 @@
+@media(max-width:1360px) {
+    .sobre .desc {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .sobre .desc .container-text {
+        margin-top: 25%;
+    }
+
+    .sobre .desc .container-img {
+        display: flex;
+        justify-content: center;
+        margin-top: 3%;
+    }
+
+    .sobre .desc .container-img .img-lucas{
+        width: 250px;
+    }
+
+    .projetos {
+        margin-top: 9%;
+    }
+} 
+
+@media (max-width: 1360px) and (min-height:729px ) {
+    .formacao {
+        margin-top: 15%;
+    }
+}
+
+@media (max-width: 1360px) and (min-height:944px ) {
+    .formacao {
+        margin-top: 0%;
+    }
+}
+
+@media(max-width:1230px) {
+    .header .container-header{
+        flex-direction: column;
+    }
+
+    .header .logo-header {
+        margin-bottom: 3%;
+    }
+}
+
+@media(max-width:1170px) {
+    .formacao .container-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projetos {
+        max-width: 70%;
+    }
+
+    .projetos button {
+        top: 40%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 500px;
+        height: auto;
+    } 
+
+    #voltar img, #avancar img {
+        width: 35px;
+    }
+}
+
+@media(max-width:1024px) {
+
+    .header nav {
+        display: none;
+    }
+
+    .projetos {
+        max-width: 70%;
+    }
+
+    .projetos button {
+        top: 40%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 450px;
+        height: auto;
+    } 
+}
+
+
+@media (max-width: 980px) and (min-height:729px ) {
+    .formacao {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 980px) and (min-height:944px ) {
+    .formacao {
+        margin-top: 0%;
+    }
+}
+
+@media(max-width:860px) {
+    .sobre .desc .container-text{
+        margin-top: 0%;
+    }
+
+    .sobre .desc .container-text h1 {
+        font-size: 25px;
+    }
+
+    .sobre .desc .container-text span {
+        font-size: 30px;
+    }
+
+    .sobre .desc .container-text p {
+        font-size: 20px;
+    }
+
+    .sobre .desc .container-text .span-p {
+        font-size: 20px;
+    }
+
+    .sobre .desc .container-img .img-lucas {
+        width: 200px;
+    }
+    
+    .formacao {
+        margin-top: -15%;
+    }
+}
+
+@media (max-width: 860px) and (min-height:729px ) {
+
+    .sobre .desc{
+        margin-top: 20%;
+    }
+
+     .formacao {
+        margin-top: 5%;
+    } 
+}
+
+@media(max-width:850px) {
+    .projetos {
+        max-width: 70%;
+    }
+
+    .projetos button {
+        top: 40%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 400px;
+        height: auto;
+    } 
+
+    #voltar img, #avancar img {
+        width: 30px;
+    }
+}
+
+@media(max-width:820px) {
+     .sobre{
+        margin-bottom: -30%;
+        height: auto; 
+    }
+
+    .sobre .desc .container-text{
+        margin-top: -20%; 
+        height: auto;
+    } 
+}
+
+@media (max-width: 820px) and (min-height:729px ) {
+
+    .sobre .desc{
+        margin-top: 40%;
+    }
+
+     .formacao {
+        margin-top: 35%;
+    } 
+}
+
+@media(max-width:750px) {
+    .projetos {
+        max-width: 70%;
+    }
+
+    .projetos button {
+        top: 40%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 350px;
+        height: auto;
+    } 
+
+    #voltar img, #avancar img {
+        width: 30px;
+    }
+}
+
+@media(max-width:680px) {
+    .projetos {
+        max-width: 70%;
+    }
+
+    .projetos button {
+        top: 35%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 280px;
+        height: auto;
+    } 
+
+    #voltar img, #avancar img {
+        width: 30px;
+    }
+}
+
+@media (max-width: 640px) and (min-height:729px ) {
+    .sobre .desc{
+        margin-top: 45%;
+    }
+
+     .formacao {
+        margin-top: 40%;
+    } 
+}
+
+
+@media(max-width:608px) {
+    .sobre .desc .container-text {
+        margin-top: 20%;
+    }
+
+    .formacao {
+        margin-top: 20%;
+    }
+}
+
+@media (max-width: 609px) and (min-height:729px ) {
+    .sobre .desc{
+        margin-top: 10%;
+    }
+
+     .formacao {
+        margin-top: 40%;
+    } 
+}
+
+
+@media(max-width:581px) {
+    .formacao {
+        margin-top: 35%;
+    }
+}
+
+@media(max-width:576px) {
+    .sobre .desc .container-text {
+        margin-top: 30%;
+    }
+
+    .projetos {
+        max-width: 60%;
+    }
+
+    .projetos button {
+        top: 35%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 230px;
+        height: auto;
+    } 
+
+    #voltar img, #avancar img {
+        width: 25px;
+    }
+}
+
+@media (max-width: 576px) and (min-height:729px ) {
+    .sobre .desc{
+        margin-top: 0%;
+    }
+
+     .formacao {
+        margin-top: 50%;
+    } 
+}
+
+@media (max-width: 576px) and (min-height:944px ) {
+    .sobre .desc{
+        margin-top: 0%;
+    }
+
+     .formacao {
+        margin-top: 35%;
+    } 
+}
+
+
+@media(max-width:527px) {
+
+    .formacao {
+        margin-top: 35%;
+    }
+
+    .projetos {
+        max-width: 75%;
+    }
+
+    .projetos button {
+        top: 30%;
+    }
+
+    .projetos .carrossel .card-carrossel img {
+        max-width: 250px;
+        height: auto;
+    } 
+}
+
+@media(max-width:469px) {
+
+    .sobre .desc .container-text {
+        margin-top: 35%;
+    }
+
+    .formacao {
+        margin-top: 50%;
+    }
+}
+

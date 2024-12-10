@@ -69,10 +69,16 @@ body {
 }
 
 .sobre .desc {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.sobre .desc .container-text {
     max-width: 600px;
 }
 
-.sobre .desc h1 {
+ .sobre .desc h1 {
     color: #fff;
     font-size: 30px;
     margin-bottom: 20px;
@@ -91,7 +97,7 @@ body {
 
 .sobre .desc p .span-p {
     color: rgb(57, 143, 57);
-}
+} 
 
 .sobre .img-lucas {
     max-width: 350px;
